@@ -1,6 +1,8 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 
 // Variables
 @import 'variables';
@@ -8,7 +10,160 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+
+body {
+  // font-family: 'Philosopher', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.top-nav {
+  background: #3d3d3d;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.fgc-header {
+  background-image: url(/img/bible.jpg),linear-gradient(180deg,rgba(0,0,0,.5) 0,rgba(0,0,0,.6) 60%,rgba(0,0,0,.75));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  .nav-container{
+    background: #bcbcbc40 !important;
+  }
+  .h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+  }
+  .main-nav {
+    img { width: 70px; }
+    .nav-item {
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+  .content {
+    padding: 200px 0;
+    text-align: center;
+  }
+}
+
+.about-us {
+  .h1 {
+    font-weight: 600;
+    color: #1e3641;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+  }
+  padding: 90px 0;
+  font-size: 1.22em;
+}
+
+.blog {
+  background: #ececec;
+  border-top: 1px solid #eab86a;
+  padding: 90px 0;
+  .h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #273044;
+  }
+
+  .fgc-blog {
+    padding-bottom: 40px;
+    .cover {
+      display: block;
+      height: 182px;
+      background-image: url('/img/event-cover.jpg');
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+    .blog-date {
+      border: 2px solid #eab830;
+      color: #eab830;
+      text-align: center;
+      padding: 20px 0;
+      margin-right: 1em;
+      .day {
+        font-size: 33px;
+        line-height: 34px;
+      }
+      .month {
+        font-size: 18px;
+        line-height: 14px;
+      }
+    }
+
+    .blog-title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .separator {
+      display: inline-block;
+      border-bottom: 2px solid #586bbe;
+      width: 30px;
+    }
+
+    .footer {
+      padding-top: 10px;
+      font-size: 0.9em;
+      span {
+        color: #aaa;
+      }
+    }
+  }
+}
+
+.events {
+  padding: 90px 0;
+  .fgc-event {
+    margin-bottom: 40px;
+    .event-date {
+      background-image: url('/img/event-cover.jpg');
+      background-size: cover;
+      background-position: center;
+      
+      .overlay {
+        background: #586bbee0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+        .day {
+          font-size: 3em;
+          font-weight: bold;
+          line-height: 38px;
+        }
+  
+        .month {
+          font-size: 1.7em;
+          font-weight: bold;
+          line-height: 35px;
+        }
+      }
+    }
+
+    .event-content {
+      padding: 5%;
+      .event-title {
+        font-size: 2em;
+        font-weight: bold;
+        line-height: 1.3em;
+      }
+    }
+  }
+}
+
+.fgc-divider {
+  display: inline-block;
+  border-bottom: 3px solid #eab86a;
+  width: 100px;
+  margin: 50px 0;
 }
