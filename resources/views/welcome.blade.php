@@ -51,7 +51,7 @@
 
 <section class="about-us">
     <div class="container">
-        <div class="text-center">
+        <div class="title text-center">
             <div class="h1">За Църквата</div>
         </div>
         <div class="d-flex justify-content-center">
@@ -75,16 +75,88 @@
         </div>
     </div>
 </section>
+
+<section class="videos">
+    <div class="container">
+        <div class="title text-center">
+            <div class="h1">Проповеди</div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="video">
+                    <div class="video_cover"></div>
+                    <div class="v_content">
+                        <div class="title_date">
+                            <a href="#">Среща с Бога</a>
+                            <div class="v_date">20.03.2019 г.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="video">
+                    <div class="video_cover small"></div>
+                    <div class="v_content">
+                        <div class="title_date">
+                            <a href="#">Среща с Бога</a>
+                            <div class="v_date">20.03.2019 г.</div>
+                        </div>
+                    </div>
+                    <div class="video_cover small"></div>
+                    <div class="v_content">
+                        <div class="title_date">
+                            <a href="#">Среща с Бога</a>
+                            <div class="v_date">20.03.2019 г.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="video">
+                    <div class="video_cover small"></div>
+                    <div class="v_content">
+                        <div class="title_date">
+                            <a href="#">Среща с Бога</a>
+                            <div class="v_date">20.03.2019 г.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="video">
+                    <div class="video_cover small"></div>
+                    <div class="v_content">
+                        <div class="title_date">
+                            <a href="#">Среща с Бога</a>
+                            <div class="v_date">20.03.2019 г.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="video">
+                    <div class="video_cover small"></div>
+                    <div class="v_content">
+                        <div class="title_date">
+                            <a href="#">Среща с Бога</a>
+                            <div class="v_date">20.03.2019 г.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="blog">
     <div class="container">
-        <div class="text-center">
+        <div class="title text-center">
             <div class="h1">Публикации</div>
             <div class="fgc-divider"></div>
         </div>
 
         <div class="row">
-            @for($i = 0; $i <= 2; $i++)
-            <div class="fgc-blog col-4">
+            @for($i = 0; $i <= 2; $i++) <div class="fgc-blog col-4">
                 <div class="row no-gutters">
                     <div class="col-12">
                         <a href="#" class="cover"></a>
@@ -115,24 +187,23 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            @endfor
         </div>
-        <p class="text-center">
-            <a href="#" class="btn btn-danger btn-lg"> Всички публикации</a>
-        </p>
+        @endfor
+    </div>
+    <p class="text-center">
+        <a href="#" class="btn btn-danger btn-lg"> Всички публикации</a>
+    </p>
     </div>
 </section>
 
 <section class="events">
     <div class="container">
-        <div class="text-center">
+        <div class="title text-center">
             <div class="h1">Актуални събития</div>
             <div class="fgc-divider"></div>
         </div>
 
-        @for($i = 0; $i <= 2; $i++)
-        <div class="fgc-event">
+        @for($i = 0; $i <= 2; $i++) <div class="fgc-event">
             <div class="row no-gutters">
                 <div class="col-6 event-date">
                     <div class="overlay">
@@ -150,8 +221,8 @@
                     </p>
                 </div>
             </div>
-        </div>
-        @endfor
+    </div>
+    @endfor
     </div>
 </section>
 @endsection

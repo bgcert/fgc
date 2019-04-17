@@ -10714,23 +10714,47 @@ body {
   font-size: 1.22em;
 }
 
-.about-us .h1 {
-  font-weight: 600;
-  color: #1e3641;
-  padding-bottom: 40px;
-  text-transform: uppercase;
+.videos .video {
+  height: 500px;
+  padding-bottom: 20px;
+}
+
+.videos .video_cover {
+  height: 90%;
+  background: url("/img/video_thumb.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.videos .video_cover.small {
+  background: url("/img/video_thumb2.jpg");
+  background-size: cover;
+  background-position: right;
+  height: 38%;
+}
+
+.videos .v_content {
+  margin: 0;
+  height: 14%;
+  font-size: 1.3em;
+}
+
+.videos .v_content .title_date {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videos .v_content .title_date .v_date {
+  color: #747474;
+  font-size: 0.73em;
 }
 
 .blog {
   background: #ececec;
   border-top: 1px solid #eab86a;
   padding: 90px 0;
-}
-
-.blog .h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #273044;
 }
 
 .blog .fgc-blog {
@@ -10826,6 +10850,13 @@ body {
   font-size: 2em;
   font-weight: bold;
   line-height: 1.3em;
+}
+
+section .title .h1 {
+  font-weight: 600;
+  color: #1e3641;
+  padding-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .fgc-divider {
