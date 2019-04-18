@@ -10,12 +10,18 @@
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">За нас <span class="sr-only">(current)</span></a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                За нас
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">За църквата</a>
+                                <a class="dropdown-item" href="#">В какво вярваме</a>
+                                <a class="dropdown-item" href="#">Екип</a>
+                                <a class="dropdown-item" href="#">Служения</a>
+                                <a class="dropdown-item" href="#">Партньори</a>
+                            </div>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">За църквата</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Събития</a>
                         </li>
