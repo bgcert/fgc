@@ -6,12 +6,12 @@
         <div class="container">
             <nav class="main-nav navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">
-                    <img src="/img/logo.jpg" class="d-inline-block align-top" alt="">
+                    <img src="/img/logo_bg_tr.png" class="d-inline-block align-top" alt="">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">За църквата <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">За нас <span class="sr-only">(current)</span></a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link" href="#">За църквата</a>
@@ -35,12 +35,15 @@
     </div>
     <div class="container">
         <div class="content">
-            <div class="h1">
-                Църква на Пълното Евангелие
+            <div>
+                <img src="/img/logo_bg_tr.png" alt="">
             </div>
-            <p>
+            <!-- <div class="h1">
+                Църква на Пълното Евангелие
+            </div> -->
+            <div class="col-5 d-inline-block my-4">
                 Църква на Пълното Евангелие е Българска християнска общност, която вярва във всичко, което пише в светото писание – Библията.
-            </p>
+            </div>
             <p>
                 <a href="#" class="btn btn-danger btn-lg">Свържете се с нас</a>
                 <a href="#" class="btn btn-outline-light btn-lg">Събития</a>
@@ -52,24 +55,28 @@
 <section class="about-us">
     <div class="container">
         <div class="title text-center">
-            <div class="h1">За Църквата</div>
+            <div class="h1">За нас</div>
+            <div class="pb-4">
+                <img src="/img/book_divider.png" alt="">
+            </div>
         </div>
         <div class="d-flex justify-content-center">
             <div class="col-8">
                 <p>
-                    Църква на Пълното Евангелие е Българска християнска общност, която вярва във всичко, което пише в светото писание – Библията.
+                    Ние сме съвременна българска християнска общност, която вярва във всичко, което пише в Светото Писание – Библията.
                 </p>
                 <p>
-                    Нашето мото е: <strong>"Щом е написано, значи е установено!"</strong>
+                    Бог показа, че сме възлюбени от Него като изпрати най-доброто от Небето, Своя Син Исус Христос!
                 </p>
                 <p>
-                    Вярваме, че Исус Христос е жив и днес върши чудеса! Ние сме приятелска група от млади хора, които искат да отразяват Бога във всяка област от живота ни.
+                    Когато познаем тази любов ние се преобразяваме напълно отвътре навън. Толкова е чудесно да живеем в прегръдката на нашия небесен Баща.
                 </p>
                 <p>
-                    Ако искаш да разбереш и достигнеш до всички обещания, които словото на Бога има за теб и семейството ти, те каним да ни посетиш!
+                    Без значение кой си, през какво си минал или откъде си, винаги има място за теб в нашето църковно семейство!
+                    Ако искаш да разбереш и да получиш всички обещания, които Словото на Бога има за теб и семейството ти, заповядай при нас!
                 </p>
                 <div class="text-center mt-4">
-                    <a href="#" class="btn btn-primary btn-lg">Свържете се с нас</a>
+                    <a href="#" class="btn btn-primary btn-lg">Свържи се с нас</a>
                 </div>
             </div>
         </div>

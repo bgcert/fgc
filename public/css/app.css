@@ -10678,7 +10678,7 @@ body {
 }
 
 .fgc-header {
-  background-image: url(/img/bible.jpg), linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.75));
+  background-image: url("/img/home_cover.jpg"), linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.75));
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -10740,7 +10740,7 @@ body {
 }
 
 .videos .v_content .title_date {
-  padding-top: 10px;
+  padding-top: 7px;
   display: flex;
   justify-content: space-between;
   align-items: center;
